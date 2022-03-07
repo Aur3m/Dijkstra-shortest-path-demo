@@ -3,7 +3,7 @@ If you wonder why this program is so much commented, it is because it's a demo p
 """
 from timeit import default_timer as timer
 from datetime import timedelta
-import heapq #this module will be useful to make the sorted list by increasing costs values
+import heapq
 
 """
 Now let's rewrite all the data of our graph in a python dictionary using this method :
@@ -41,7 +41,7 @@ def dijkstra(graph, source, target):
 
     #initialisation of the Dijkstra algorithm
     distancetotal = {source: 0} #First cost = 0 because it's simply the origin
-    queue = [(distancetotal[source], source)] #Here we initial our stack on which the main loop in DIjkstra algorith is based
+    queue = [(distancetotal[source], source)] #Initialisation of the stack
     visited = [] #Here I record all the nodes from which we have visited the neighbors in the main loop of the algorithm
     predecessors = {source:source} #Here I record all the predecessors for each paths explored
 
