@@ -1,5 +1,5 @@
 """
-If you wonder why this program is so much commented, it is because it's a demo program for a blog entry I did on Charlie's OIB. Link here :
+If you wonder why this program is so much commented, it is because it's a demo program for a blog entry I did on Charlie's OIB. Link here : http://oibstcharles.blogspot.com/2022/03/algorithmics-my-personal-experience.html
 """
 from timeit import default_timer as timer
 from datetime import timedelta
